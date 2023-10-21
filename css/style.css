@@ -180,6 +180,10 @@ img {
   gap: 24px;
 }
 
+.feature-list {
+  width: calc((100% - 3 * 24px) / 4);
+}
+
 .feature {
   padding-top: 120px;
   padding-bottom: 120px;
