@@ -273,6 +273,12 @@ img {
   row-gap: 48px;
 }
 
+.portfolio-container-text {
+  border: 1px solid #e7e9fc;
+  padding: 32px 16px;
+  margin-bottom: 8px;
+}
+
 .sec-portfolio {
   padding: 120px 0;
 }
@@ -290,10 +296,6 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-}
-
-.portfolio-container {
-  margin: 32px 0;
 }
 
 .footer {
