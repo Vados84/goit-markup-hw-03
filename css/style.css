@@ -41,8 +41,7 @@ img {
   width: 1158px;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding: 0 15px;
 }
 
 .page-header {
@@ -81,7 +80,7 @@ img {
 
 .menu {
   display: flex;
-  column-gap: 40px;
+  gap: 40px;
 }
 
 .nav-list-link {
@@ -218,6 +217,7 @@ img {
 
 .card {
   background-color: #ffffff;
+  width: calc((100% - 3 * 24px) / 4);
 }
 
 .our-team-title {
